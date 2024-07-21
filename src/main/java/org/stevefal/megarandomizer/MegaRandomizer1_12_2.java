@@ -5,7 +5,9 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLServerStartedEvent;
 import org.apache.logging.log4j.Logger;
+import org.stevefal.megarandomizer.gamerules.MegaGameRules;
 
 @Mod(useMetadata = true, modid = MegaRandomizer1_12_2.MODID, name = MegaRandomizer1_12_2.NAME, version = MegaRandomizer1_12_2.VERSION)
 public class MegaRandomizer1_12_2
@@ -25,7 +27,11 @@ public class MegaRandomizer1_12_2
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-        // some example code
-        logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+
+    }
+
+    @EventHandler
+    public void onServerReady(FMLServerStartedEvent event) {
+        MegaGameRules.register();
     }
 }

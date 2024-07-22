@@ -39,6 +39,4 @@ public class MegaMessages {
     public static void sendToPlayer(IMessage message, EntityPlayerMP player) {
         INSTANCE.sendTo(message, player);
     }
-
-
 }

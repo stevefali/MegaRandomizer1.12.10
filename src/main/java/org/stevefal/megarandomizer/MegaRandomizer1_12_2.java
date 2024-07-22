@@ -11,6 +11,7 @@ import org.apache.logging.log4j.Logger;
 import org.stevefal.megarandomizer.event.ServerEvents;
 import org.stevefal.megarandomizer.gamerules.MegaGameRules;
 import org.stevefal.megarandomizer.megadrops.RandomDrops;
+import org.stevefal.megarandomizer.networking.MegaMessages;
 
 @Mod(useMetadata = true, modid = MegaRandomizer1_12_2.MODID, name = MegaRandomizer1_12_2.NAME, version = MegaRandomizer1_12_2.VERSION)
 public class MegaRandomizer1_12_2 {
@@ -28,6 +29,8 @@ public class MegaRandomizer1_12_2 {
     @EventHandler
     public void init(FMLInitializationEvent event) {
         MinecraftForge.EVENT_BUS.register(new ServerEvents());
+
+        MegaMessages.register();
     }
 
     @EventHandler

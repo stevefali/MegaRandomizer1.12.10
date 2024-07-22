@@ -56,5 +56,4 @@ public class ServerEvents {
         event.getDrops().addAll(randomizedDrops);
     }
 
-
 }

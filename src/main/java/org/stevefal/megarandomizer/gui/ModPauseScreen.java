@@ -2,7 +2,6 @@ package org.stevefal.megarandomizer.gui;
 
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiIngameMenu;
-
 import net.minecraft.client.resources.I18n;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;

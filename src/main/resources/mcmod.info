@@ -9,7 +9,7 @@
   "updateUrl": "",
   "authorList": ["Steven Faliszewski"],
   "credits": "",
-  "logoFile": "./assets/MegaRandomizerLogo.png",
+  "logoFile": "assets/MegaRandomizerLogo.png",
   "screenshots": [],
   "dependencies": []
 }

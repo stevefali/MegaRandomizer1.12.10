@@ -36,10 +36,10 @@ public class MegaRandomOptionsScreen extends GuiScreen {
         byte b0 = -16;
 
         this.buttonList.add(new GuiButton(0, this.width / 2 - 100, this.height / 4 + 24 + b0,
-                getButtonString(MegaGameRules.RULE_DO_BLOCK_RANDOM_DROPS, BLOCKS) + " " + WORLD.getGameRules().getBoolean(MegaGameRules.RULE_DO_BLOCK_RANDOM_DROPS)));
+                getButtonString(MegaGameRules.RULE_DO_BLOCK_RANDOM_DROPS, BLOCKS)));
         this.buttonList.add(new GuiButton(1, this.width / 2 - 100, this.height / 4 + 48 + b0,
                 getButtonString(MegaGameRules.RULE_DO_ENTITY_RANDOM_DROPS, ENTITIES)));
-        this.buttonList.add(new GuiButton(1, this.width / 2 - 100, this.height / 4 + 72 + b0,
+        this.buttonList.add(new GuiButton(2, this.width / 2 - 100, this.height / 4 + 72 + b0,
                 getButtonString(MegaGameRules.RULE_DO_PLAYER_RANDOM_DROPS, PLAYERS)));
 
         this.buttonList.add(new GuiButton(4, this.width / 2 - 100, this.height / 4 + 96 + b0,

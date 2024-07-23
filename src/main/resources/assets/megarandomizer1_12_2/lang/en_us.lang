@@ -1,2 +1,20 @@
 
 megarandomizer1_12_2.menu.megarandomoptions=Mega Randomizer Options
+
+megarandomizer1_12_2.menu.drops=Randomize %1$s Drops: %2$s
+
+megarandomizer1_12_2.menu.block=Block
+
+megarandomizer1_12_2.menu.entity=Entity
+
+megarandomizer1_12_2.menu.player=Player
+
+megarandomizer1_12_2.menu.on=On
+
+megarandomizer1_12_2.menu.off=Off
+
+megarandomizer1_12_2.menu.done=Done
+
+megarandomizer1_12_2.menu.title=Mega Randomizer Options
+
+

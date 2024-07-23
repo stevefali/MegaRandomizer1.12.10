@@ -6,7 +6,6 @@ import net.minecraft.client.gui.GuiIngameMenu;
 import net.minecraft.client.resources.I18n;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import org.stevefal.megarandomizer.MegaRandomizer1_12_2;
 
 import java.io.IOException;
 
@@ -28,7 +27,7 @@ public class ModPauseScreen extends GuiIngameMenu {
         super.actionPerformed(button);
 
         if (button.id == 14) {
-            System.out.println("Mega Randomizer Options button clicked");
+            this.mc.displayGuiScreen(new MegaRandomOptionsScreen(this));
         }
     }
 

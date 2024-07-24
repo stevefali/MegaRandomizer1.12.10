@@ -51,25 +51,21 @@ public class MegaRandomOptionsScreen extends GuiScreen {
             case 0:
                 // Blocks
                 setRule(MegaGameRules.RULE_DO_BLOCK_RANDOM_DROPS);
-                initGui();
-                updateToServer();
                 break;
             case 1:
                 // Entities
                 setRule(MegaGameRules.RULE_DO_ENTITY_RANDOM_DROPS);
-                initGui();
-                updateToServer();
                 break;
             case 2:
                 // Players
                 setRule(MegaGameRules.RULE_DO_PLAYER_RANDOM_DROPS);
-                initGui();
-                updateToServer();
                 break;
             case 4:
                 // Done
                 Minecraft.getMinecraft().displayGuiScreen(this.MOD_PAUSE_SCREEN);
         }
+        initGui();
+        updateToServer();
     }
 
     private String getButtonString(String megaGameRule, String ruleName) {

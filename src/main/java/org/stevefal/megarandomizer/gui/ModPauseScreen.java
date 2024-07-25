@@ -29,14 +29,4 @@ public class ModPauseScreen extends GuiIngameMenu {
             this.mc.displayGuiScreen(new MegaRandomOptionsScreen(this));
         }
     }
-
-    @Override
-    public void updateScreen() {
-        super.updateScreen();
-    }
-
-    @Override
-    public void drawScreen(int val_1, int val_2, float val_3) {
-        super.drawScreen(val_1, val_2, val_3);
-    }
 }
